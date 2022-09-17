@@ -1,30 +1,35 @@
 Structure: 
-game {object}                
-newGame() function   
-addTurn() function
-showTurns() function
-lightsOn() function
-playerTurn() function
-showScore() function
+    game {object}                
+    newGame() function   
+    addTurn() function
+    showTurns() function
+    lightsOn() function
+    playerTurn() function
+    showScore() function
 
 
 game = {                       
-score: - integer               
-currentGame: - array           
-playerMoves: - array           
-choices: - array                                              
-}
+    score: - integer               
+    currentGame: - array           
+    playerMoves: - array           
+    choices: - array                                              
+};
 
 newGame() function
 Should:
-✓ Reset the score to zero
-✓ Clear currentGame array
-✓ Clear playerMoves array
-✓ Call showScore() function
-✓ Call addTurn() function
+    ✓ Reset the score to zero
+    ✓ Clear currentGame array
+    ✓ Clear playerMoves array
+    ✓ Call showScore() function
+    ✓ Call addTurn() function
 
 addTurn() function
 Should:
-✓ Clear the playerMoves array
-✓ Randomly add a button ID to the currentGame array
-Call the showTurn function
+    ✓ Clear the playerMoves array
+    ✓ Randomly add a button ID to the currentGame array
+    Call the showTurn function
+
+lightsOn() function
+Should:
+    ✓ Add the class light to the current button
+    ✓ SetTimeout and Remove the class light after 400ms
