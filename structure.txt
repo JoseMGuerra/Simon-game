@@ -33,3 +33,7 @@ lightsOn() function
 Should:
     ✓ Add the class light to the current button
     ✓ SetTimeout and Remove the class light after 400ms
+
+showTurns() function
+Should:
+    
