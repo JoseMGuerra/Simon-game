@@ -36,4 +36,15 @@ Should:
 
 showTurns() function
 Should:
-    
+    ✓ Add a turn number to the game object
+    ✓ Turn light on and increment the turn number
+
+
+playerTurn() function 
+Should: 
+    Check if player move matches the move in the computer move
+    If we are at the end of the sequence then 
+    increment the score and add another turn
+    If the moves do not match then 
+    display an alert adn start a new game
+
